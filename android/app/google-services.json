@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565717542214",
+    "project_id": "cnsi-b4f1c",
+    "storage_bucket": "cnsi-b4f1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565717542214:android:9a50778deaa940ec397147",
+        "android_client_info": {
+          "package_name": "com.deligence.hookup4u2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565717542214-msdoob6k6q9qlok8g4409blcnb2bi63r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5bGAu3ih4Rw_lTjLvjQNlCkrCFHGw8gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565717542214-msdoob6k6q9qlok8g4409blcnb2bi63r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

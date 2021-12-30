@@ -1,0 +1,117 @@
+name: cns
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  country_code_picker: ^2.0.2
+  pin_code_fields: ^7.2.0
+  swipe_stack: ^1.0.0
+
+  intl: ^0.17.0
+  firebase_auth: ^2.0.0
+  cloud_firestore: ^2.3.0
+  location: ^4.3.0
+  curved_splash_screen: ^1.0.0+1
+  table_calendar: ^3.0.1
+  flutter_local_notifications: ^6.0.0
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3
+  geocoder: ^0.2.1
+  image_picker: ^0.8.1+3
+  image_cropper: ^1.4.1
+  firebase_storage: ^9.0.0
+  path_provider: ^2.0.2
+  cached_network_image: ^3.0.0
+  share: ^2.0.4
+  firebase_messaging: ^10.0.3
+  flutter_webview_plugin: ^0.4.0
+
+  rflutter_alert: ^2.0.2
+
+  google_sign_in: ^5.0.4
+  permission_handler: ^8.1.2
+  flutter_ringtone_player: ^3.0.0
+
+#  apple_sign_in: ^0.1.0
+  sign_in_with_apple: ^3.0.0
+  url_launcher: ^6.0.9
+  shimmer: ^1.1.0
+  flutter_tindercard: ^0.2.0
+  flutter_stack_card: ^0.2.0+1
+  google_fonts: ^2.1.0
+  awesome_dialog: ^2.1.0
+  carousel_slider: ^2.3.2
+  image: ^3.0.2
+  flutter_mapbox_autocomplete: ^2.0.0
+  change_app_package_name: ^1.0.0
+  provider: ^5.0.0
+  font_awesome_flutter: ^9.1.0
+  group_radio_button: ^1.1.0
+  bubbled_navigation_bar: ^0.0.4
+  flutter_launcher_icons: ^0.9.0
+#  filter_list: ^0.0.7
+  date_time_picker: ^2.1.0
+#  firebase_admob:
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "asset/Icon/icon.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/auth/
+    - asset/Icon/
+    - asset/fonts/
+    - asset/
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #   fonts:
+  #    - family: Waffle Crisp
+  #      fonts:
+  #        - asset: fonts/Waffle Crisp.ttf
+  #
+  #          weight: 900
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
